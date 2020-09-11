@@ -1,16 +1,28 @@
 'use strict';
 
-function fizzbuzz() {
-  for (let i = 1; i <= 30; i++) {
-    if (i % 15 === 0) {
-      console.log('fizzbuzz');
-    } else if (i % 5 === 0) {
-      console.log('fizz');
-    }else if (i % 3 === 0) {
-      console.log('buzz');
-    } else {
-      console.log(i);
-    }
-  }
-}
-fizzbuzz();
+
+// function sum(a, b, c) {
+//   // console.log(a + b + c);
+//   return a + b + c;
+//   console.log(a + b + c);
+// }
+
+// sum(1, 2, 3);
+// sum(3, 4, 5);
+
+// const total = sum(1, 2, 3) + sum(3, 4, 5);
+// console.log(total);
+
+// const sum = function (a,b,c) {
+//   return a+b+c;
+// }
+
+const suma = (a,b,c,d) => a+b+c+d;
+// const sum = (a, b, c) => a + b + c;
+
+// const total = sum(1, 2, 3) + sum(3, 4, 5);
+// console.log(total);
+
+const aaa = suma(1, 1, 1, 2);
+
+console.log(aaa);
